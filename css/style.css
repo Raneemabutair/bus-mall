@@ -1,0 +1,70 @@
+header {
+    height: 100px;
+    background-color: #ecd9ae;
+    color: rgb(14, 13, 13);
+    margin-bottom: 20px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+
+main {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin: auto;
+    background-color: rgb(241, 165, 222);
+}
+
+.section2 {
+    display: grid;
+    grid-template-rows: 400px 1fr;
+    gap: 20px;
+}
+
+#imges {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+img {
+    width: 100%;
+    height: 400px;
+    border:solid black;
+
+}
+
+p {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+li {
+    list-style-type: circle;
+    color: #325288;
+    padding-top: 5px;
+    font-weight: bold;
+    list-style-position: inside;
+}
+
+button {
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 150px;
+    background-color: #c0bd8f;
+    color: rgb(14, 13, 13);
+}
+
+ul {
+    color: #070707;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
